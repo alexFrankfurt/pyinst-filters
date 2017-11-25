@@ -20,11 +20,11 @@ Instagram-filters depends on ImageMagick, which can be installed on a Mac with b
 
 First, import the client:
 
-	from instagram_filters.filters import *
+	from instagram_filters.filters.gotham import Gotham
 
 Instanciate a filter and apply it:
 
-	f = Nashville("image.jpg")
+	f = Gotham("image.jpg")
 	f.apply()
 
 Available filters:
