@@ -1,7 +1,8 @@
 from instagram_filters.filter import Filter
-from instagram_filters.decorations import Vignette, Border
+from instagram_filters.decorations.vignette import Vignette
+from instagram_filters.decorations.border import Border
 
-class Toaster(Filter, Vignette, Border):
+class Toaster(Vignette, Border):
 	
 	def apply(self):
 		self.colortone('#330000', 50, 0)
