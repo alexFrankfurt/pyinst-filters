@@ -1,7 +1,7 @@
 Instagram-filters
 =================
 
-Instagram-like image filters.
+Instagram-like image filters.(based on [this work](https://github.com/acoomans/instagram-filters))
 
 Can be used in conjunction with the [instagram-client](https://bitbucket.org/acoomans/instagram-client) to upload the image after applying a filter.
 
@@ -27,7 +27,7 @@ Instanciate a filter and apply it:
 	f = Nashville("image.jpg")
 	f.apply()
 
-Available filters: 
+Available filters:
 
 - Gotham
 - Kelvin
@@ -44,7 +44,7 @@ Run the tests with:
 
 	cd tests
 	python test.py
-	
+
 ## Credits
 
 This library is inspired from the ["Create instagram filters with php" tutsplus tutorial](http://net.tutsplus.com/tutorials/php/create-instagram-filters-with-php/).
